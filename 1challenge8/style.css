@@ -10,6 +10,8 @@
 
 */
 
+/*? START With some generic css first  */
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -22,9 +24,25 @@ img {
   max-width: 100%;
 }
 
+/* ? Then go on with typography */
+
 h1,
 h2 {
   font-family: "Playfair Display", serif;
   margin-top: 0;
-  font-weight: 900;
+}
+
+/*? A little dive into deeper layer  */
+
+.intro {
+  background: #f3eed9;
+  padding: 200px 0;
+  text-align: center;
+  color: #824936;
+}
+
+.intro__text {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  letter-spacing: 3px;
 }
