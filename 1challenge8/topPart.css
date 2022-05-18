@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+
+*/
+
+/*? START With some generic css first  */
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3125rem;
+  line-height: 1.6;
+  color: #222c2a;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ? Then go on with typography */
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+section {
+  padding: 4em 0;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  color: #f3eed9;
+}
+
+.section-title--dark {
+  color: #824936;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1128px;
+}
+
+/*? A little dive into deeper layer  */
+
+.intro {
+  background: #f3eed9;
+  padding: 200px 0;
+  text-align: center;
+  color: #824936;
+}
+
+.intro__text {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  letter-spacing: 3px;
+  color: #222c2a;
+  margin: 0 0 0.25em;
+}
+
+.intro__title {
+  font-size: 3rem;
+}
+
+.section-three {
+  background: #222c2a;
+  color: #fff;
+}
+
+.section-four {
+  background: #824936;
+  color: #fff;
+}
+
+/* ! MEDIA QUERIES */
+
+@media (min-width: 800px) {
+  .row {
+    display: flex;
+  }
+
+  .col {
+    flex: 0 1 50%;
+  }
+
+  .col + .col {
+    margin-left: 4rem;
+  }
+
+  .intro__title {
+    font-size: 3.75rem;
+  }
+}
