@@ -30,6 +30,7 @@ h1,
 h2 {
   font-family: "Playfair Display", serif;
   margin-top: 0;
+  line-height: 1.1;
 }
 
 /*? A little dive into deeper layer  */
@@ -45,4 +46,10 @@ h2 {
   text-transform: uppercase;
   font-size: 1.125rem;
   letter-spacing: 3px;
+  color: #222c2a;
+  margin: 0 0 0.25em;
+}
+
+.intro__title {
+  font-size: 60px;
 }
