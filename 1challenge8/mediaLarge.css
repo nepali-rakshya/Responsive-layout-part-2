@@ -89,4 +89,16 @@ section {
   .row {
     display: flex;
   }
+
+  .col {
+    flex: 0 1 50%;
+  }
+
+  .col + .col {
+    margin-left: 4rem;
+  }
+
+  .intro__title {
+    font-size: 3.75rem;
+  }
 }
