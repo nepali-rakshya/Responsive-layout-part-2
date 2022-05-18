@@ -49,6 +49,7 @@ section {
 .container {
   width: 85%;
   margin: 0 auto;
+  max-width: 1128px;
 }
 
 /*? A little dive into deeper layer  */
@@ -80,4 +81,12 @@ section {
 .section-four {
   background: #824936;
   color: #fff;
+}
+
+/* ! MEDIA QUERIES */
+
+@media (min-width: 800px) {
+  .row {
+    display: flex;
+  }
 }
