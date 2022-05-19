@@ -1,6 +1,6 @@
-# 1. As we know that, 1vh and 1vw means 1% of height and 1% of width of the browser window respectively.
+As we know that, 1vh and 1vw means 1% of height and 1% of width of the browser window respectively.
 
-# 2. vmin and vmax performs similar functions but with some different concepts.
+vmin and vmax performs similar functions but with some different concepts.
 
 # VMIN :
 
@@ -10,8 +10,12 @@
 
 # Now vmax is opposite to the vmin. if 1vmax is given then it checks which side is larger either width or height then it goes along with the larger side.
 
-<!-- !IMPORTANT NOTES!!! -->
+<!-- !IMPORTANT NOTES!!! https://www.youtube.com/watch?v=waiZqfefo14&ab_channel=Minim -->
 
-<!-- if the size of the viewport is 800px wide then width of 1vw is 8px.
-    1vw is the 1% of the actual viewport and 100vw is 100% of the actual viewport.
- -->
+1. if the size of the viewport is 800px wide then width of 1vw is 8px.
+
+2. 1vw is the 1% of the actual viewport and 100vw is 100% of the actual viewport.
+
+3. Even in case of font sizes, the font size with the width of --vw adjusts according to the viewport of the browser window.+
+
+<!-- ! Yahooo baba <3 https://www.youtube.com/watch?v=2CW2B7W4Vas&ab_channel=YahooBaba> -->
