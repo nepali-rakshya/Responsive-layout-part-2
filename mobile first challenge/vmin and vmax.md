@@ -19,3 +19,7 @@ vmin and vmax performs similar functions but with some different concepts.
 3. Even in case of font sizes, the font size with the width of --vw adjusts according to the viewport of the browser window.+
 
 <!-- ! Yahooo baba <3 https://www.youtube.com/watch?v=2CW2B7W4Vas&ab_channel=YahooBaba> -->
+
+1. For instance,
+   if width = 50vmax;
+   it means, whosever size either be it width or height is bigger will be 50% of the viewport which will be the width.
