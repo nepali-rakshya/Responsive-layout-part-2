@@ -9,3 +9,9 @@
 # VMAX:
 
 # Now vmax is opposite to the vmin. if 1vmax is given then it checks which side is larger either width or height then it goes along with the larger side.
+
+<!-- !IMPORTANT NOTES!!! -->
+
+<!-- if the size of the viewport is 800px wide then width of 1vw is 8px.
+    1vw is the 1% of the actual viewport and 100vw is 100% of the actual viewport.
+ -->
