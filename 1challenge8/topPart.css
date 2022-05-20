@@ -54,6 +54,7 @@ section {
   color: #824936;
   min-height: 660px;
   display: flex;
+  align-items: center;
 }
 
 .intro__text {
