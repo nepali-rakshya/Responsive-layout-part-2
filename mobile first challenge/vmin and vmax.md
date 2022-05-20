@@ -23,3 +23,5 @@ vmin and vmax performs similar functions but with some different concepts.
 1. For instance,
    if width = 50vmax;
    it means, whosever size either be it width or height is bigger will be 50% of the viewport which will be the width.
+
+<!-- Mostly used css properties are vh and vw, vmax and vmin aren't mostly used as they need a lots of testing and need to be watched carefully for their usage. -->
