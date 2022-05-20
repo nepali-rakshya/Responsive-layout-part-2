@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-/* 
-  font-family: "Playfair Display", serif;
-  font-family: "Roboto", sans-serif;
-
-*/
-
 /*? START With some generic css first  */
 
 body {
@@ -56,9 +50,10 @@ section {
 
 .intro {
   background: #f3eed9;
-  padding: 200px 0;
   text-align: center;
   color: #824936;
+  min-height: 660px;
+  display: flex;
 }
 
 .intro__text {
