@@ -126,13 +126,12 @@ header {
 
 .nav {
   visibility: visible;
-  display: flex;
+  /* display: flex; */
   height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* flex-direction: column; */
+  /* justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: center; */
 }
 
 .nav--visible {
@@ -155,7 +154,6 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  display: inline-block;
 }
 
 .nav__link--button {
@@ -184,7 +182,7 @@ header {
   margin-bottom: 3em;
 }
 
-.main {
+.main {\
   margin-top: 3em;
 }
 
