@@ -119,6 +119,11 @@ header {
    to make it more accessible.
    
    Works the same :) */
+
+.header__flexbox {
+  display: flex;
+}
+
 .nav {
   visibility: visible;
   display: flex;
@@ -138,6 +143,9 @@ header {
 
 .nav__list {
   list-style-type: none;
+}
+
+.nav__item {
   line-height: 3.8rem;
 }
 
@@ -147,10 +155,10 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
+  display: inline-block;
 }
 
 .nav__link--button {
-  display: inline-block;
   background: white;
   color: #136c72;
   padding: 0.5rem 1.2rem;
