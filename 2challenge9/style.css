@@ -121,12 +121,6 @@ header {
    
    Works the same :) */
 
-/* .flex-layout-mobile {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
 .nav {
   visibility: hidden;
   height: 0;
@@ -139,13 +133,11 @@ header {
   position: relative;
 }
 
-/* .logo {
-  display: inline-block;
+.logo {
   height: 30px;
-} */
+}
 
 .nav__item {
-  /* line-height: 4rem; */
   margin-top: 0.75em;
 }
 
@@ -209,19 +201,31 @@ header {
     display: none;
   }
 
-  .row {
-    display: flex;
-  }
-
   .nav {
     visibility: visible;
+    align-items: center;
+    justify-content: flex-end;
     display: flex;
     height: auto;
+    position: relative;
   }
 
   .nav__list {
     display: flex;
+    margin: 0;
+  }
+
+  .nav__list--primary {
     margin: 0 auto;
+  }
+
+  .nav__item {
+    margin: 0 0 0 1rem;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
   }
 
   .hero__text {
