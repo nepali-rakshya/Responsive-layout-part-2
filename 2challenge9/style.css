@@ -143,13 +143,26 @@ header {
   height: 30px;
 }
 
+.nav__item {
+  line-height: 4rem;
+}
 .nav__list {
   list-style-type: none;
   text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 
 .nav__link {
   text-decoration: none;
+  color: #ffffffd2;
+}
+
+.nav__link--button {
+  background: white;
+  color: #136c72;
+  padding: 0.5rem 1.3rem;
+  border-radius: 5rem;
 }
 
 .hero {
