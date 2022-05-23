@@ -121,11 +121,11 @@ header {
    
    Works the same :) */
 
-.flex-layout-mobile {
+/* .flex-layout-mobile {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
+} */
 
 .nav {
   visibility: hidden;
@@ -139,30 +139,44 @@ header {
   position: relative;
 }
 
-.logo {
+/* .logo {
+  display: inline-block;
   height: 30px;
-}
+} */
 
 .nav__item {
-  line-height: 4rem;
+  /* line-height: 4rem; */
+  margin-top: 0.75em;
 }
+
 .nav__list {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
 
+.nav__list--primary {
+  margin-bottom: 2em;
+}
+
 .nav__link {
   text-decoration: none;
-  color: #ffffffd2;
+  color: #fff;
 }
 
 .nav__link--button {
   background: white;
   color: #136c72;
   padding: 0.5rem 1.3rem;
-  border-radius: 5rem;
+  border-radius: 100px;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  opacity: 0.65;
 }
 
 .hero {
@@ -195,15 +209,19 @@ header {
     display: none;
   }
 
+  .row {
+    display: flex;
+  }
+
   .nav {
     visibility: visible;
     display: flex;
     height: auto;
   }
 
-  .row {
+  .nav__list {
     display: flex;
-    justify-content: space-between;
+    margin: 0 auto;
   }
 
   .hero__text {
